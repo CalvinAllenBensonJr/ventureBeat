@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height:60px;
+  width:100%;
+  background-color: black;
+  float:left;
+}
+.logo,img{
+  float: left;
+    /* height: 2px; */
+    width: 20%;
+    position: relative;
+    top: -22%;
+    bottom: 0%;
+    right: 10%;
+    left: -1%
+}
+
+ul li{
+  float: left;
+    color: white;
+    list-style: none;
+    position: relative;
+    left: 37%;
+    padding-left: 3%;
+}
+.photo{
+  height: 77vh;
+  width:100%;
+  object-fit: cover;
+  display:block;
+  background-image: url(https://www.incimages.com/uploaded_files/image/1940x900/ellen-pao-01-2018_365650.jpg);
+  background-repeat: no-repeat;
+}
+
+span{
+  border: 1px solid white;
+  background-color: white;
+  position: relative;
+  top: 379px;
+  bottom: 20px;
+  left: 104px;
+  font-size: 30px;
+}
+
+.nasdaq{
+  position:relative;
+  top:0%;
+  bottom:0%;
+  right:0%;
+  left:9%;
+  display: inline;
+}
+
+span.vampire{
+  position: relative;
+  top: 13px;
+  bottom: 0px;
+  left: 170px;
+  font-size: 19px;
+}
+
+.author{
+  position: relative;
+  top: 96px;
+  bottom: 0px;
+  left: -334px;
+  font-size: 15px;
+  color: blue;
+}
+
+.date{
+  position: relative;
+  top: 96px;
+  bottom: -5px;
+  left: -300px;
+  right: 0px;
+  font-size: 15px;
+}
+
+
+/* .photo{
+  background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falexkonrad%2Ffiles%2F2017%2F01%2FDSC_2508-Edit.jpg);
+  background-repeat:none;
+  height:90vh;
+  width:100%;
+  float:left;
+} */
+
+
+/* for tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+
+/* for mobile */
+@media only screen and (max-width: 768px) {
+
+  header{
+    width:100%;
+  }
+
+  .logo{
+    width: 100%;
+  }
+  .right{
+    display:none;
+  }
+
+  .photo,span{
+    width: 100%;
+  }
+
+}
